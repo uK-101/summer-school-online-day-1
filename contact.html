@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>CONTACT ME!</h1>
+    </header>
+    <nav>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <br><br><br>    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id = "name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number" name="phone" pattern="[0-9]{10}" placeholder="Enter your phone number" required>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea  id= "message" name="message" placeholder="Enter your message" required></textarea>
+        <br><br><br>
+
+        <label >Preferred Contact Method:</label> <br>
+        <input type="checkbox" name="contact_method" value="email2" id="email2" required>
+        <label for="email2">Email</label>
+        <input type="checkbox" name="contact_method" value="phone" id="phone" required>
+        <label for="phone">Phone</label>
+        <input type="checkbox" name="contact_method" value="text" id="text" required>
+        <label for="text">Text</label>
+        <br><br>
+
+        <label>Enquiry Type:</label> <br>
+        <input type="radio" name="enquiry_type" value="general" id="general" required>
+        <label for="general">General</label>
+        <input type="radio" name="enquiry_type" value="business" id="business" required>
+        <label for="business">Business</label>
+        <input type="radio" name="enquiry_type" value="support" id="support" required>
+        <label for="support">Support</label>
+        <br><br>
+
+        <label for="choice">Choose a dish:</label>
+        <select id="choice" name="choice" required>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="ladoo">Ladoo</option>
+            <option value="chocolate">Chocolate</option>
+        </select>
+        <br><br>
+
+        <label for="date">Select date:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" required>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    <footer>
+        <h4> Built with ❤️ by Ujwal Kitchloo</h4>
+    </footer>
+</body>
+</html>

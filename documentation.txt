@@ -1,0 +1,39 @@
+1. What each element does?
+→ <h1> to <h6> are heading tags used to create headings of various levels
+  <header>:  It is used to define the top section of a page or section.
+  <a>: It creates a hyperlink to another webpage or another location mentioned inside href attribute
+  <br>: It inserts a line break in between the text written
+  <form>: It creates a container for taking input from user
+  <label>: It defines a label  for an input element
+  <input>: It collects user data like text, email, phone number etc by using various input types.
+  <footer>:It defines the bottom section of a page or section.
+  <ul>:It is used to create an unordered (bulleted) list.
+  <ol>: It is used to create an ordered (numbered) list.
+  <img>: It is used to display an image on the webpage with an alternative text if image is not found.
+  <table>:It defines a table for organizing data in tabular format.
+  <thead>: It is used to groups the header content of a table.
+  <tbody>:It is used to group the body content of a table.
+  <tr>: It defines a row in a table.
+  <th>: It defines a header cell in a table.
+  <td>: It defines a regular cell in a table. Any data will be put in this tag
+  <span>: It isused to style a part of text inline.
+  <p>: It defines a paragraph of text.
+
+
+2. Why you choose specific input types?
+ → input type="text": It allows users to enter plain single-line text. I used this to enter plain text.
+   input type="email": It accepts and validates email address format. I choose this to enter accept email and in pre-defined format. 
+   input type="tel": It accepts phone number input. It allows using a pattern.
+   input type="checkbox": It allows users select one or more options from a rounded box of different options.
+   input type="radio": It allows selection of only one option in a group.
+   input type="date": It opens a date picker to choose any date .
+   input type="range": It displays a slider to select a value from a range, which can be user-defined.
+   input type="submit": It creates a clickable button to submit the form.
+   textarea: It allows users to enter multi-line text of desired length.
+   select: It creates a dropdown menu from which users can select various available options.
+
+3. How your navigation structure works?
+ → In the portfolio.html, the nav tag links it to contact.html and about.html
+   In the about.html, I added an internal link to access portfolio.html and I used an external link to my own linkedin profile
+   In the contact.html, I added link to portfolio.html and about.html
+   Thus, we can access any of the file from any of the web page easily.
